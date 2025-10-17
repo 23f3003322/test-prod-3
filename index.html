@@ -13,7 +13,21 @@
   </header>
 
   <main>
+    <section id="markdown-tabs" aria-label="Markdown Tabs">
+      <button class="tab-btn active" data-tab="output" type="button">Preview</button>
+      <button class="tab-btn" data-tab="source" type="button">Source</button>
+    </section>
+
     <section id="markdown-output" aria-label="Rendered Markdown"></section>
+
+    <section id="markdown-source" contenteditable="true" aria-label="Markdown Source" spellcheck="false">
+# Welcome to Markdown Tabs
+
+Edit this Markdown to see updates reflected in the preview.
+
+- This is the original Markdown content.
+
+</section>
   </main>
 
   <script src="assets/marked.min.js"></script>
